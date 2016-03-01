@@ -1,6 +1,6 @@
-### whois-online
+### angular_sushi-store
 
-Real-time online users counter your website.
+Build a sample sushi store app using the MEAN stack, along with other modern tools, such as Webpack, SASS, and Babel/ES6.
 
 ![sample](public/img/sample1.png)
 ![sample](public/img/sample2.png)
