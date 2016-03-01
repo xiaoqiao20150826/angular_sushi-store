@@ -10,6 +10,6 @@ Build a sample sushi store app using the MEAN stack, along with other modern too
 
 ##### Main Repository
 1. `git clone git@github.com:michaelcheng429/angular_sushi-store.git`
-2. `cd super-mean-stack`
+2. `cd angular_sushi-store`
 3. `npm install`
 4. `npm run dev`
