@@ -1,0 +1,19 @@
+<ul class="nav nav-pills navbar-default">
+    <li><a ui-sref="menu.sushi">Back</a></li>
+</ul>
+<div class="table-responsive">
+<table class="table table-hover  table-striped">
+    <tr ng-repeat="item in orderItem track by $index">
+        <td>
+        <p>{{item.name}}</p>
+        </td>
+        <td>
+          <p>{{item.price | number:2}} Yen X {{item.quantity}} = {{item.quantity * item.price}} Yen</p>
+        </td>
+    </tr>
+</table>
+</div>
+<div class="row">
+  <div class="col-md-6"><h4 class="bg-info"> Sum : {{sum | number:2}} Yen</h4></div>
+  <div class="col-md-6"><button type="button"class="btn btn-lg btn-success pull-right" ng-click="payMoney(item)">Pay</button>
+</div>

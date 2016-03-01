@@ -1,0 +1,13 @@
+<div class="list-group">
+<div class="list-group-item row" ng-repeat="item in orderItem">
+	<p class="col-md-4">{{item.name}}</p>
+		<div class="col-md-4"><em>{{item.price | number:2}} Yen </em></div>
+			<div class="col-md-2"><p>X {{item.quantity}}</p></div>
+			<div class="col-md-2">
+				<button class="btn btn-default pull-right" ng-click="removeOrder(item)">X</button>
+			</div>
+		</div>
+</div>
+	<button ng-show="orderItem.length > 0" ng-click="checkOut()" class="btn btn-warning col-md-12">Check Out
+	</button>
+</div>

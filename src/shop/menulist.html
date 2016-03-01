@@ -1,0 +1,22 @@
+<div class="table-responsive">
+<table class="table table-hover  table-striped">
+    <tr ng-repeat="item in menuItem track by $index" ng-init="item.quantity = 0">
+        <td>
+        <p>{{item.name}}</p>
+        </td>
+        <td>
+          <p>{{item.price | number:2}} Yen</p>
+        </td>
+        <td>
+           <p>X {{item.quantity}}</p> 
+        </td>
+		<td>
+  <button class="btn btn-sm btn-primary" ng-click="increase(item)">increse</button>
+  <button class="btn btn-sm btn-danger" ng-click="decrease(item)">decrese</button>
+        </td>
+    <td>
+		<button type="button"class="btn btn-default pull-right" ng-click="orderCall(item)" value="+">+</button>
+    </td>
+    </tr>
+</table>
+</div>

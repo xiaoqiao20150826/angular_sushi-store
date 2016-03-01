@@ -1,0 +1,14 @@
+<div class="container">
+ <div class="jumbotron">
+     <h2 class="text-center">Sushi Store</h2>
+ </div>
+<div class="col-md-8" ui-view="menu">
+	<ul class="nav nav-pills navbar-default">
+		<li><a ui-sref="menu.sushi">Sushi</a></li>
+		<li><a ui-sref="menu.appetizer">Appetizer</a></li>
+		<li><a ui-sref="menu.drink">Drink</a></li>
+	</ul>
+	<div ui-view="menulist"></div>
+</div>
+<div class="col-md-4" ui-view="order"></div>
+</div>
