@@ -2,8 +2,8 @@
 
 Build a sample sushi store app using the MEAN stack, along with other modern tools, such as Webpack, SASS, and Babel/ES6.
 
-![sample](public/img/sample1.png)
-![sample](public/img/sample2.png)
+<img src="public/img/sample1.png" width="600" height="375">
+<img src="public/img/sample2.png" width="600" height="375">
 ------------------
 
 ### Setup
